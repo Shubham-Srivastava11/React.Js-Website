@@ -1,0 +1,13 @@
+.separator {
+    /* height: 10rem; */
+    /* background-color: rgba(85, 164, 120, 0.738); */
+    background-image: url('../../../src/images/separator.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.separator p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
