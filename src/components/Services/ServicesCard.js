@@ -6,9 +6,9 @@ const ServicesCard = (props) => {
             {
                 props.services.map(data =>
                     <div className={style.card_column} key={Math.random()}>
-                        < div className={style.card} >
+                        < div className={style.scard} >
                             <h3>{data.header}</h3>
-                            <img src={data.img} alt=''>
+                            <img src={data.img} alt='services'>
 
                             </img>
                             <h4>

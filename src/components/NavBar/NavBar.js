@@ -13,7 +13,8 @@ const NavBar = () => {
                     <li><a href="#" className={style.active}>Home</a></li>
                     <li><Link to='about' spy={true} smooth={true}>About</Link></li>
                     {/* <li><a href="#">About</a></li> */}
-                    <li><a href="#">Services</a></li>
+                    <li><Link to='services' spy={true} smooth={true}>Services</Link></li>
+                    {/* <li><a href="#">Services</a></li> */}
                     <li><a href="#">Experts</a></li>
                     <li><a href="#">Contcat Us</a></li>
                 </ul>

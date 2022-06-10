@@ -1,21 +1,23 @@
 .card_container {
     /* display: flex; */
     margin: 0 5%;
-    /* background-color: black; */
+    /* background: black; */
 
 }
 
 .card_column {
     float: left;
     width: 31%;
-    padding: 8px;
-    margin: 1% 0.5%;
-    background-color: rgb(85, 164, 120);
+    /* padding: 2px; */
+    margin: .5%;
+    /* margin: 1% 0.5%; */
+    border: 5px solid rgb(85, 164, 120);
+    /* background-color: rgb(85, 164, 120); */
     border-radius: 1rem;
 
 }
 
-.card {
+.scard {
     background-color: white;
     padding: 5%;
     /* top: -5rem; */
@@ -25,31 +27,37 @@
     margin: 1%;
 }
 
-.card img {
-    height: 20%;
+.scard img {
+    height: 8rem;
+    width: 10rem;
     margin: 2%;
     /* display: flex; */
 }
 
-.card h3 {
+.scard h3 {
     position: absolute;
-    margin: 2%;
-    background-color: rgba(245, 222, 179, 0.684);
-    padding: .5%;
+    margin: inherit;
+    /* display: block; */
+    background-color: rgba(245, 222, 179, 0.793);
+    padding: 1%;
+    width: 115px;
+    text-align: center;
+    /* align-items: center; */
 }
 
-.card:hover {
-    background-color: rgb(48, 96, 70);
-    color: white;
+.scard:hover {
+    background-color: rgba(0, 0, 0, 0.073);
+    /* color: white; */
     cursor: pointer;
 }
 
-.card h1 {
+/* .scard h1 {
     text-align: center;
-}
+} */
 
-.card h4 {
+.scard h4 {
     text-align: center;
+    /* align-items: center; */
 }
 
 @media screen and (max-width: 1090px) {
@@ -57,5 +65,13 @@
         width: 100%;
         display: block;
         margin-bottom: 20px;
+    }
+
+    .scard {
+        padding: 0%;
+    }
+
+    .scard h3 {
+        margin: 27px;
     }
 }

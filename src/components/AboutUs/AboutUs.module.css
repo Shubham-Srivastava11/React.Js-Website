@@ -25,6 +25,8 @@
     font-size: 5rem;
     margin: 0;
     border-bottom: 3px solid rgb(85, 164, 120);
+
+    letter-spacing: 5px;
     font-weight: 530;
 
 }

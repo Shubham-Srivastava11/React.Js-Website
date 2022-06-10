@@ -9,7 +9,7 @@
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.332); */
 }
 
-.stroke ul li Link:hover {
+.stroke ul li:hover {
     cursor: pointer;
 }
 
@@ -88,6 +88,7 @@ nav.stroke ul li a:after {
 
 nav.stroke ul li a:hover:after {
     width: 100%;
+
 }
 
 

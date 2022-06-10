@@ -23,9 +23,11 @@
 }
 
 .card:hover {
-    background-color: rgb(48, 96, 70);
-    color: white;
+    /* background-color: rgb(48, 96, 70); */
+    background-color: rgb(253, 253, 253);
+    color: black;
     cursor: pointer;
+    border: 2px solid black;
 }
 
 .card h1 {
